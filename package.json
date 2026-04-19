@@ -1,0 +1,28 @@
+{
+  "name": "social-listening-x",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "backtest": "node src/backtest.js"
+  },
+  "keywords": [
+    "twitter",
+    "x",
+    "social-listening",
+    "scraper",
+    "telegram"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Social listening tool for X (Twitter) with Telegram alerts",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "node-cron": "^4.2.1",
+    "node-telegram-bot-api": "^0.67.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
